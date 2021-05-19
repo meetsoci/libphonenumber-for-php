@@ -4,9 +4,10 @@
 !.gitignore
 !.styleci.yml
 
+auth.json
 composer.phar
 
 vendor/
 libphonenumber-data-dir/
 build/logs/
-
+scripts/dist/

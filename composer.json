@@ -34,7 +34,6 @@
         "/src/geocoding/data/",
         "/src/timezone/data/"
     ]
-
   },
   "autoload-dev": {
     "psr-4": {
@@ -80,6 +79,7 @@
   },
   "scripts": {
     "test": "./phpunit",
-    "metadata": "vendor/bin/phing compile"
+    "metadata": "vendor/bin/phing compile",
+    "build-dist": "./scripts/build-dist.sh"
   }
 }
