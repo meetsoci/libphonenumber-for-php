@@ -1,5 +1,12 @@
-vendor/
+.*
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.styleci.yml
+
 composer.phar
-composer.lock
+
+vendor/
 libphonenumber-data-dir/
 build/logs/
+
